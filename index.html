@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#050506">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Samurai Shodown II</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="game">
+    <section class="screen-frame" aria-label="游戏画面">
+      <canvas id="screen" width="320" height="224" tabindex="0" aria-label="游戏画面"></canvas>
+      <div id="loading" class="loading" role="status" aria-label="载入中"><i></i></div>
+    </section>
+
+    <section class="controller" aria-label="虚拟控制器">
+      <div class="dpad" aria-label="方向键">
+        <button class="control up" data-input="up" aria-label="上">▲</button>
+        <button class="control left" data-input="left" aria-label="左">◀</button>
+        <i></i>
+        <button class="control right" data-input="right" aria-label="右">▶</button>
+        <button class="control down" data-input="down" aria-label="下">▼</button>
+      </div>
+
+      <button class="control start" data-input="start" aria-label="开始">START</button>
+
+      <div class="actions" aria-label="动作键">
+        <button class="control action c" data-input="c" aria-label="C">C</button>
+        <button class="control action d" data-input="d" aria-label="D">D</button>
+        <button class="control action a" data-input="a" aria-label="A">A</button>
+        <button class="control action b" data-input="b" aria-label="B">B</button>
+      </div>
+    </section>
+  </main>
+  <script src="samurai2.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

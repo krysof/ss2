@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "program_count": 17,
+  "program_bytes": 190264,
+  "static_program_selector": 12,
+  "programs": [
+    {
+      "fighter_selector": 0,
+      "program": "SQU_00.PRG",
+      "bytes": 11192,
+      "sha256": "62b0c0a82a5964573e5cc145a1c411412b5cd4629b8ce69ec97714a82ea3250f"
+    },
+    {
+      "fighter_selector": 1,
+      "program": "SQU_01.PRG",
+      "bytes": 11192,
+      "sha256": "e97c983a8fbd6a6f09df57d055ba2be1b58f9e1ae6d7f5ab7af8a6aaf15f1423"
+    },
+    {
+      "fighter_selector": 2,
+      "program": "SQU_02.PRG",
+      "bytes": 11192,
+      "sha256": "6151983f22020068e6ad40452bf6d36a849d66fc95a47299b8c8f9e7c550e689"
+    },
+    {
+      "fighter_selector": 3,
+      "program": "SQU_03.PRG",
+      "bytes": 11192,
+      "sha256": "35656ce4485156f7d07dec9d91dded7a5b4d9ad31e0166a3af9ff49ac987c39f"
+    },
+    {
+      "fighter_selector": 4,
+      "program": "SQU_04.PRG",
+      "bytes": 11192,
+      "sha256": "58569d38c471fc34dc756597d6d35e7712b51bb8183044efce7c7a6d5486168f"
+    },
+    {
+      "fighter_selector": 5,
+      "program": "SQU_05.PRG",
+      "bytes": 11192,
+      "sha256": "3a5161c5fb40023a967575e15ac1035edf02d7d929ef90ff19570d51f5e11214"
+    },
+    {
+      "fighter_selector": 6,
+      "program": "SQU_06.PRG",
+      "bytes": 11192,
+      "sha256": "62c64935232896e71842dcf8cdabb50d0818992ab3e02304bda7aa6341cb1dcb"
+    },
+    {
+      "fighter_selector": 7,
+      "program": "SQU_07.PRG",
+      "bytes": 11192,
+      "sha256": "d7b3c824a8cadf3fbb86a02c91064b923829ee588163cfca957c625eee9e772f"
+    },
+    {
+      "fighter_selector": 8,
+      "program": "SQU_08.PRG",
+      "bytes": 11192,
+      "sha256": "d1244dbd63f4b31c2b68cb7f978589dfd88092173ffebe7cc3aa936a9eb76c5e"
+    },
+    {
+      "fighter_selector": 9,
+      "program": "SQU_09.PRG",
+      "bytes": 11192,
+      "sha256": "656ce9429a50c7032ea4038bc21460d3c7226ae47c4dfeb4610dbebfe903402d"
+    },
+    {
+      "fighter_selector": 10,
+      "program": "SQU_OB.PRG",
+      "bytes": 11192,
+      "sha256": "b1d60f7f4d14fd854d251519464d278d55e234871b71dfc5a39418ca54669257"
+    },
+    {
+      "fighter_selector": 11,
+      "program": "SQU_0B.PRG",
+      "bytes": 11192,
+      "sha256": "a059d4d47a31514981ba27de04eb7840117eac9cb9254182731fa3106adb3d38"
+    },
+    {
+      "fighter_selector": 13,
+      "program": "SQU_0D.PRG",
+      "bytes": 11192,
+      "sha256": "800e0ee1b979865e7c20b144af5646fe4deb268c50afffb14e5382a478bfb185"
+    },
+    {
+      "fighter_selector": 14,
+      "program": "SQU_0E.PRG",
+      "bytes": 11192,
+      "sha256": "f9c04840fae47a85dabf72e84e55861e0b343eb5c3af99669c8d3a430d5863d0"
+    },
+    {
+      "fighter_selector": 15,
+      "program": "SQU_0F.PRG",
+      "bytes": 11192,
+      "sha256": "36cf4e8b56dd89557478161360689fb77b0936e5ac2fb738208a46a5ef1c8d6d"
+    },
+    {
+      "fighter_selector": 16,
+      "program": "SQU_10.PRG",
+      "bytes": 11192,
+      "sha256": "95b683c5167086a414cdcb77b3fd81b9b203903c9fd5f11b7ffc3d89ce6b4045"
+    },
+    {
+      "fighter_selector": 17,
+      "program": "SQU_11.PRG",
+      "bytes": 11192,
+      "sha256": "2d2f7e10e49f62e06f6c6a097e70f755beae08cee39f1a0aaf0dbfeb0e809b26"
+    }
+  ]
+}
