@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "program_count": 17,
+  "program_bytes": 696320,
+  "programs": [
+    {
+      "fighter_selector": 0,
+      "program": "PLY_00.PRG",
+      "sprite": "F0C01.SPR",
+      "bytes": 40960,
+      "sha256": "92cd4bbb01a7f021570f2b26122176c17f8a8a68bc8856f14c428a30133899dd"
+    },
+    {
+      "fighter_selector": 1,
+      "program": "PLY_01.PRG",
+      "sprite": "F0C02.SPR",
+      "bytes": 40960,
+      "sha256": "4cb887c98244705e5d2b9ddfb7914dc109a9239d4ce3ca9586946c715455f857"
+    },
+    {
+      "fighter_selector": 2,
+      "program": "PLY_02.PRG",
+      "sprite": "F0C03.SPR",
+      "bytes": 40960,
+      "sha256": "907cc29a70a557647c31d37c6bfd0464e4d7fd33596e07c6fa287e6a736eaae2"
+    },
+    {
+      "fighter_selector": 3,
+      "program": "PLY_03.PRG",
+      "sprite": "F0C04.SPR",
+      "bytes": 40960,
+      "sha256": "5908e8f41b892fc77abe1bf712ac41f15db014dbcdc139b61b9aa6d994401435"
+    },
+    {
+      "fighter_selector": 4,
+      "program": "PLY_04.PRG",
+      "sprite": "F0C05.SPR",
+      "bytes": 40960,
+      "sha256": "dea8c6e13f40740ef7be429ac9022324849f12acdcb04f4003d1041ecb741ce6"
+    },
+    {
+      "fighter_selector": 5,
+      "program": "PLY_05.PRG",
+      "sprite": "F0C06.SPR",
+      "bytes": 40960,
+      "sha256": "8a8318d38f385ffa687cdbbb992528c79156dc475decd7546dd2ac4a28b405e2"
+    },
+    {
+      "fighter_selector": 6,
+      "program": "PLY_06.PRG",
+      "sprite": "F0C07.SPR",
+      "bytes": 40960,
+      "sha256": "7707110cb3a532a4646ef952eac9dc1a964504439db05a1323f81ac1cf62bccb"
+    },
+    {
+      "fighter_selector": 7,
+      "program": "PLY_07.PRG",
+      "sprite": "F0C08.SPR",
+      "bytes": 40960,
+      "sha256": "41853bcad88927791ceca269ffbde81c4f0cbef443785217cafdd02a8b47d529"
+    },
+    {
+      "fighter_selector": 8,
+      "program": "PLY_08.PRG",
+      "sprite": "F0C09.SPR",
+      "bytes": 40960,
+      "sha256": "f7d6b20e2e2a4f394a6f6fb82ddc3d4d4577a7ac8b0410458c106625aade8cee"
+    },
+    {
+      "fighter_selector": 9,
+      "program": "PLY_09.PRG",
+      "sprite": "F0C0A.SPR",
+      "bytes": 40960,
+      "sha256": "b3ef523d60fc1796971b6e87347d6a8d52ee51015c28133e8bbaafe59e19f076"
+    },
+    {
+      "fighter_selector": 11,
+      "program": "PLY_0B.PRG",
+      "sprite": "F0C0C.SPR",
+      "bytes": 40960,
+      "sha256": "074a22c680b61ec5040fab12928c87724b7a4300c5f73f94f17f2b4228878e8b"
+    },
+    {
+      "fighter_selector": 12,
+      "program": "PLY_0C.PRG",
+      "sprite": "F0C0D.SPR",
+      "bytes": 40960,
+      "sha256": "4eefb053268db86e76ecaedbedf5aaa467ef84f27a1c13f9a6337f3cc5520eef"
+    },
+    {
+      "fighter_selector": 13,
+      "program": "PLY_0D.PRG",
+      "sprite": "F0C0E.SPR",
+      "bytes": 40960,
+      "sha256": "227f0be72c959c5302016d5c031e5da9c263692e3fd9b7de8f3d5a7a5dead228"
+    },
+    {
+      "fighter_selector": 14,
+      "program": "PLY_0E.PRG",
+      "sprite": "F0C0F.SPR",
+      "bytes": 40960,
+      "sha256": "ef5b51c180024c6c4c6b70b1f046b13d033fe19080400719ee671214926bb2b1"
+    },
+    {
+      "fighter_selector": 15,
+      "program": "PLY_0F.PRG",
+      "sprite": "F0C10.SPR",
+      "bytes": 40960,
+      "sha256": "8fd6159973a9161ddb8468e452592f8f6b074e4dedcd2f837c88ff1d8fa293b3"
+    },
+    {
+      "fighter_selector": 16,
+      "program": "PLY_10.PRG",
+      "sprite": "F0C11.SPR",
+      "bytes": 40960,
+      "sha256": "424d5c7472d7329d55efca8f39ebe4fb407bafa61d40a91031ddc3dc091c7cdf"
+    },
+    {
+      "fighter_selector": 17,
+      "program": "PLY_11.PRG",
+      "sprite": "F0C12.SPR",
+      "bytes": 40960,
+      "sha256": "fcc56151b0bebc4c8067674fc846b55b9044c5f8dd5bf47b2677ae0c847d3f01"
+    }
+  ]
+}

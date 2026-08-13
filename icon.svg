@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="88" fill="#050506"/>
+  <circle cx="256" cy="256" r="202" fill="#731925"/>
+  <circle cx="256" cy="256" r="174" fill="#111114" stroke="#d2b071" stroke-width="10"/>
+  <text x="256" y="285" fill="#f2e4c2" font-size="154" font-weight="700"
+        font-family="serif" text-anchor="middle">侍魂</text>
+  <text x="256" y="382" fill="#d2b071" font-size="74" font-weight="700"
+        font-family="serif" text-anchor="middle">II</text>
+</svg>

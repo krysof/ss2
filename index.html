@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#050506">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Samurai Shodown II</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="desktop-shell">
+  <nav id="platform-menu" class="platform-menu" aria-label="Samurai Shodown II menu">
+    <div class="menu-root">
+      <button type="button" class="menu-root-button" data-menu-root aria-haspopup="true" aria-expanded="false"><u>G</u>ame</button>
+      <div class="menu-popup" role="menu">
+        <button type="button" role="menuitem" data-menu-command="40006" data-original-label="&amp;New Game"><u>N</u>ew Game</button>
+        <span class="menu-separator" role="separator"></span>
+        <button type="button" role="menuitem" data-menu-command="40001" data-original-label="E&amp;xit">E<u>x</u>it</button>
+      </div>
+    </div>
+    <div class="menu-root">
+      <button type="button" class="menu-root-button" data-menu-root aria-haspopup="true" aria-expanded="false"><u>O</u>ptions</button>
+      <div class="menu-popup" role="menu">
+        <button type="button" role="menuitem" data-menu-command="40012" data-original-label="&amp;Display"><u>D</u>isplay</button>
+        <button type="button" role="menuitem" data-menu-command="40016" data-original-label="&amp;Sound"><u>S</u>ound</button>
+        <span class="menu-separator" role="separator"></span>
+        <button type="button" role="menuitem" data-menu-command="40017" data-original-label="Player &amp;1">Player <u>1</u></button>
+        <button type="button" role="menuitem" data-menu-command="40018" data-original-label="Player &amp;2">Player <u>2</u></button>
+      </div>
+    </div>
+    <div class="menu-root">
+      <button type="button" class="menu-root-button" data-menu-root aria-haspopup="true" aria-expanded="false"><u>H</u>elp</button>
+      <div class="menu-popup" role="menu">
+        <button type="button" role="menuitem" data-menu-command="40013" data-original-label="&amp;Contents"><u>C</u>ontents</button>
+        <button type="button" role="menuitem" data-menu-command="40014" data-original-label="&amp;Search for Help On..."><u>S</u>earch for Help On...</button>
+        <button type="button" role="menuitem" data-menu-command="40015" data-original-label="&amp;How to Use Help"><u>H</u>ow to Use Help</button>
+        <span class="menu-separator" role="separator"></span>
+        <button type="button" role="menuitem" data-menu-command="40025" data-original-label="&amp;About Samurai Spirits..."><u>A</u>bout Samurai Spirits...</button>
+      </div>
+    </div>
+  </nav>
+
+  <main id="game">
+    <section class="screen-frame" aria-label="游戏画面">
+      <canvas id="screen" width="320" height="224" tabindex="0" aria-label="游戏画面"></canvas>
+      <div id="loading" class="loading" role="status" aria-label="载入中"><i></i></div>
+    </section>
+
+    <section class="controller" aria-label="虚拟控制器">
+      <div class="dpad" aria-label="方向键">
+        <button class="control up" data-input="up" aria-label="上">▲</button>
+        <button class="control left" data-input="left" aria-label="左">◀</button>
+        <i></i>
+        <button class="control right" data-input="right" aria-label="右">▶</button>
+        <button class="control down" data-input="down" aria-label="下">▼</button>
+      </div>
+
+      <button class="control start" data-input="start" aria-label="开始">START</button>
+
+      <div class="actions" aria-label="动作键">
+        <button class="control action c" data-input="c" aria-label="C">C</button>
+        <button class="control action d" data-input="d" aria-label="D">D</button>
+        <button class="control action a" data-input="a" aria-label="A">A</button>
+        <button class="control action b" data-input="b" aria-label="B">B</button>
+      </div>
+    </section>
+  </main>
+  </div>
+
+  <dialog id="options-dialog" class="platform-dialog" aria-labelledby="options-title">
+    <form method="dialog">
+      <header><span id="options-title">Properties for Samurai Shodown II</span></header>
+      <div class="property-tabs" role="tablist" aria-label="Properties">
+        <button type="button" role="tab" data-option-tab="display">Display</button>
+        <button type="button" role="tab" data-option-tab="sound">Sound</button>
+        <button type="button" role="tab" data-option-tab="player-1">Player 1</button>
+        <button type="button" role="tab" data-option-tab="player-2">Player 2</button>
+      </div>
+      <section class="property-page" data-option-page="display" data-resource-id="111">
+        <fieldset>
+          <legend>Screen Size</legend>
+          <label><input type="radio" name="display-mode" value="current"> <u>C</u>urrent Settings</label>
+          <label><input type="radio" name="display-mode" value="320"> <u>3</u>20 x 240</label>
+          <label><input type="radio" name="display-mode" value="640"> <u>6</u>40 x 480</label>
+          <label><input type="radio" name="display-mode" value="fullscreen"> <u>F</u>ull Screen</label>
+        </fieldset>
+      </section>
+      <section class="property-page sound-page" data-option-page="sound" data-resource-id="110">
+        <fieldset>
+          <legend>Sound</legend>
+          <div class="sound-control">
+            <label for="effects-percent"><u>S</u>ound Effects</label>
+            <input id="effects-enabled" type="checkbox" aria-label="Sound Effects enabled">
+            <input id="effects-percent" type="range" min="0" max="100" step="1">
+            <output id="effects-percent-output" for="effects-percent"></output>
+          </div>
+          <div class="sound-control">
+            <label for="music-percent"><u>C</u>D Audio</label>
+            <input id="music-enabled" type="checkbox" aria-label="CD Audio enabled">
+            <input id="music-percent" type="range" min="0" max="100" step="1">
+            <output id="music-percent-output" for="music-percent"></output>
+          </div>
+          <button type="button" class="dialog-button" id="sound-defaults">Set <u>D</u>efaults</button>
+        </fieldset>
+      </section>
+      <section class="property-page player-page" data-option-page="player-1" data-resource-id="113" data-player="0">
+        <fieldset>
+          <legend>Player 1</legend>
+          <label class="controller-selector">Controller
+            <select data-controller-selector></select>
+          </label>
+          <div class="binding-grid" data-binding-grid></div>
+          <div class="player-actions">
+            <button type="button" class="dialog-button" data-calibrate disabled><u>C</u>alibrate...</button>
+            <button type="button" class="dialog-button" data-controller-defaults>Set <u>D</u>efaults</button>
+          </div>
+        </fieldset>
+      </section>
+      <section class="property-page player-page" data-option-page="player-2" data-resource-id="116" data-player="1">
+        <fieldset>
+          <legend>Player 2</legend>
+          <label class="controller-selector">Controller
+            <select data-controller-selector></select>
+          </label>
+          <div class="binding-grid" data-binding-grid></div>
+          <div class="player-actions">
+            <button type="button" class="dialog-button" data-calibrate disabled><u>C</u>alibrate...</button>
+            <button type="button" class="dialog-button" data-controller-defaults>Set <u>D</u>efaults</button>
+          </div>
+        </fieldset>
+      </section>
+      <footer>
+        <button type="button" class="dialog-button default-action" id="options-ok">OK</button>
+        <button type="button" class="dialog-button" id="options-cancel">Cancel</button>
+        <button type="button" class="dialog-button" id="options-apply">Apply</button>
+      </footer>
+    </form>
+  </dialog>
+
+  <dialog id="about-dialog" class="platform-dialog about-dialog" aria-labelledby="about-title">
+    <form method="dialog">
+      <header id="about-title">About Samurai Spirits</header>
+      <div class="about-content">
+        <strong>Samurai Shodown II</strong>
+        <p>Produced by Kinesoft Development</p>
+        <p>Executive Producers - Peter Sills, Mark Achler</p>
+        <p>Andrew H. Marrinson<br>Daniel Gregory Bungo<br>Andrew Glaister</p>
+        <p>Additional Development by<br>NuFX, Inc.</p>
+        <p>Developed by<br>Producer / Project Management - Tom DiDomenico</p>
+      </div>
+      <footer><button type="submit" class="dialog-button default-action">OK</button></footer>
+    </form>
+  </dialog>
+  <script src="samurai2.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
